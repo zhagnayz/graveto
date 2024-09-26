@@ -170,7 +170,10 @@ input { width: 100%; }
 
 ion-icon { pointer-events: none; }
 
-img { height: auto; }
+img {
+  width: 300;
+  height: 300;
+}
 
 address { font-style: normal; }
 
