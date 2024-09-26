@@ -15,7 +15,7 @@
   <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
 
   <!--
     - google font link
@@ -70,7 +70,7 @@
  Sit back and relax, have us deliver to you or skip the line with pickup.
             </p>
 
-            <button class="btn"  onclick="myFunction()">Get app</button>
+            <button class="btn">Get app</button>
 
           </div>
 
@@ -186,9 +186,7 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Private Policy</a>
-            <p><button style="color:red" onclick="myFunction()">Click Me</button></p>
-       
+            <a href="#" class="footer-link">Private Policy</a>       
           </li>
 
         </ul>
@@ -276,12 +274,6 @@
     - ionicon link
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
-    <div id="myDIV"></div>
-
-    
-    
-    
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
 </body>
 </html>
