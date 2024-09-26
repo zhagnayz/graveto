@@ -39,7 +39,7 @@
    * spacing
    */
 
-  --section-padding: 60px;
+  --section-padding: 10px;
 
   /**
    * transition
@@ -513,7 +513,7 @@ body {
    */
 
   .hero {
-    min-height: 300px;
+    min-height: 200px;
     display: grid;
     place-items: center;
   }
@@ -588,7 +588,7 @@ body {
    * HERO
    */
 
-  .hero { min-height: 700px; }
+  .hero { min-height: 400px; }
 
   /**
    * SERVICE
@@ -630,7 +630,7 @@ body {
    * HERO
    */
 
-  .hero { min-height: 800px; }
+  .hero { min-height: 400px; }
 
   /**
    * FOOTER
