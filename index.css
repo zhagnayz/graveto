@@ -171,8 +171,8 @@ input { width: 100%; }
 ion-icon { pointer-events: none; }
 
 img {
-  width: 300;
-  height: 300;
+  width: 200px;
+  height: 200px
 }
 
 address { font-style: normal; }
@@ -309,7 +309,7 @@ body {
   padding-block-end: var(--section-padding);
 }
 
-.hero-content { margin-block-end: 50px; }
+.hero-content { margin-block-end: 10px; }
 
 .hero-title {
   color: var(--white);
@@ -319,7 +319,7 @@ body {
 .hero-text {
   color: var(--white);
   font-size: var(--fs-8);
-  margin-block-end: 20px;
+  margin-block-end: 10px;
 }
 
 /*-----------------------------------*\
@@ -329,14 +329,14 @@ body {
 .service-list {
   display: grid;
   gap: 30px;
-  padding:0px 0px 200px 0px;
+  padding:0px 0px 30px 0px;
 }
 
 
 .service-card .card-icon {
   background-repeat: no-repeat;
   background-size: contain;
-  aspect-ratio: 1/1;
+  aspect-ratio: 0;
   max-width: 165px;
   display: grid;
   place-content: center;
@@ -359,7 +359,7 @@ body {
 
 .service-card .text {
   text-align: center;
-  margin-block-end: 15px;
+  margin-block-end: 10px;
 }
 
 .service-card .card-btn {
@@ -396,7 +396,7 @@ body {
 .footer-brand { margin-block-end: 30px; }
 
 .footer-brand .logo {
-  font-weight: var(--fw-700);
+  font-weight: var(--fw-500);
   margin-block-end: 15px;
 }
 
@@ -410,7 +410,7 @@ body {
 .footer-list-title {
   font-family: var(--ff-source-sans-pro);
   font-size: var(--fs-5);
-  font-weight: var(--fw-700);
+  font-weight: var(--fw-500);
   margin-block-end: 15px;
 }
 
@@ -514,7 +514,7 @@ body {
    */
 
   .hero {
-    min-height: 200px;
+    min-height: 150px;
     display: grid;
     place-items: center;
   }
@@ -589,7 +589,7 @@ body {
    * HERO
    */
 
-  .hero { min-height: 400px; }
+  .hero { min-height: 150px}
 
   /**
    * SERVICE
