@@ -319,7 +319,7 @@ body {
 .hero-text {
   color: var(--white);
   font-size: var(--fs-8);
-  margin-block-end: 10px;
+  margin-block-end: 5px;
 }
 
 /*-----------------------------------*\
@@ -398,7 +398,7 @@ body {
 
 .footer-brand .logo {
   font-weight: var(--fw-500);
-  margin-block-end: 15px;
+  margin-block-end: 5px;
 }
 
 .footer-brand .text {
@@ -412,7 +412,7 @@ body {
   font-family: var(--ff-source-sans-pro);
   font-size: var(--fs-5);
   font-weight: var(--fw-500);
-  margin-block-end: 15px;
+  margin-block-end: 5px;
 }
 
 .footer-link { padding-block: 5px; }
