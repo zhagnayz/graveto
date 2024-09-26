@@ -214,7 +214,7 @@ body {
 
 .btn:is(:hover, :focus) { background-position: right; }
 
-.w-100 { width: 100%; }
+.w-100 { width: 40%; }
 
 .banner-animation { animation: waveAnim 2s linear infinite alternate; }
 
