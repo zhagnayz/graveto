@@ -39,7 +39,7 @@
    * spacing
    */
 
-  --section-padding: 0px;
+  --section-padding: 20px;
 
   /**
    * transition
@@ -329,7 +329,7 @@ body {
 .service-list {
   display: grid;
   gap: 30px;
-  padding:0px 0px 30px 0px;
+  padding:0px 0px 0px 0px;
 }
 
 
@@ -355,6 +355,7 @@ body {
 
 .service-card .title {
   text-align: center;
+    font-size: 20px;
 }
 
 .service-card .text {
@@ -364,7 +365,7 @@ body {
 
 .service-card .card-btn {
   margin-inline: auto;
-  padding: 15px;
+  padding: 14px;
   border: 1px solid var(--white);
   border-radius: 50%;
   color: var(--white);
@@ -641,4 +642,4 @@ body {
 
   .footer-brand { grid-column: auto; }
 
-}        
+}               
