@@ -64,20 +64,17 @@
         <div class="container">
 
           <div class="hero-content">
-            <h2 class="h2 hero-title" id="myDIV">Get food delivery and more</h2>
+            <h2 class="h2 hero-title">Get food delivery and more</h2>
 
             <p class="hero-text">
  Sit back and relax, have us deliver to you or skip the line with pickup.
             </p>
 
-            <button onclick="myFunction()" class="btn">Get app</button>
+            <button class="btn">Get app</button>
 
           </div>
-<div id="myDIV"></div>
-          
           <figure class="hero-banner">
-            <div id="myDIV"></div>
-
+            
 
             <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Three_Baskets_with_Apples.svg" width="494" height="329" loading="lazy" alt="hero-banner"
               class="w-100 banner-animation">
@@ -188,7 +185,8 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Private Policy</a>       
+            <p><button onclick="myFunction()" style="color:white">Private Policy</button></p>
+             <p1 id="myDIV"></p1>
           </li>
 
         </ul>
@@ -277,11 +275,14 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>   
-    <script>
+    
+    <div id="myDIV"></div>
+
+<script>
 function myFunction() {
   var x = document.getElementById("myDIV");
   if (x.innerHTML === "") {
-    x.innerHTML = "Swapped text!";
+    x.innerHTML = "Swapped tsdafasdfasdfasdfsdadfdasdfsa;jklfsdajklsfd;jklsfda;jklsfd;jklsfd;jklsfdaext!";
   } else {
     x.innerHTML = "";
   }
