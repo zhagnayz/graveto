@@ -70,7 +70,7 @@
  Sit back and relax, have us deliver to you or skip the line with pickup.
             </p>
 
-            <button class="btn">Get app</button>
+            <button class="btn"  onclick="myFunction()">Get app</button>
 
           </div>
 
@@ -280,16 +280,6 @@
     
     <div id="myDIV"></div>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.innerHTML === "") {
-    x.innerHTML = "Swapped text!";
-  } else {
-    x.innerHTML = "";
-  }
-}
-</script>
     
     
     
