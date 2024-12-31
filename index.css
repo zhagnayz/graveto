@@ -654,8 +654,7 @@ body {
   margin: 30px auto;
   padding: 8px;
   width: 40%;
-  min-width: 270px;
-  max-width: 35%;
+  min-width: 300px;
   border-radius: 5px;
 }
 
@@ -663,6 +662,7 @@ input {
   padding: 3px;
   width: 100%;
   border: 1px solid #aaaaaa;
+  background-color: white;
 }
 
 /* Mark input boxes that gets an error on validation: */
