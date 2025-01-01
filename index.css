@@ -654,7 +654,7 @@ body {
   margin: 30px auto;
   padding: 8px;
   width: 40%;
-  min-width: 300px;
+  min-width: 350px;
   border-radius: 5px;
 }
 
@@ -714,7 +714,6 @@ input.invalid {
 .form-popup {
   display: none;
 }
-
 
 
 
