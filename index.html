@@ -518,8 +518,7 @@ function nextPrev(n) {
   if (currentTab >= x.length) {
     // ... the form gets submitted:
    
-    alert(currentTab)
-    document.getElementById("regForm").submit();
+    document.getElementById("myForm").remove();
     
     return false;
   }else if  (currentTab >= 3){
