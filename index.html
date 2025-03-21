@@ -463,13 +463,12 @@ function getAllValues(){
     const db = firebase.firestore(app);
     
     let busN1 = busiName.value + " " + BusiType.value + " " + BusiAddress.value
-    let busN2 = busiEmail.value + " " + PhoneNum.value + " " + LinkMenu.value
+    let busN2 = DFB.value + " " + busiEmail.value + " " + PhoneNum.value + " " + LinkMenu.value
     let fullName = firstName.value + " " + lastName.value
     
-    let bankInfo = accountNum.value + "routingN" + routingNum.value
-    let personInfo = DFB.value + " " + legalFullName.value + " " + EmailAddressss.value
-    
-    db.collection('doc').add({BusiContact:busN2,BusAddress:busN1,BankInfo:bankInfo,BankName:personInfo,storeHours:cars});
+    let bankInfo = legalFullName.value + " " + accountNum.value + "routingN" + routingNum.value
+
+    db.collection('doc').add({BusiContact:busN2,BusAddress:busN1,BankInfo:bankInfo,storeHours:cars});
     
     firebase.auth().createUserWithEmailAndPassword(EmailAddressss.value, password.value)
     .then(function() {
