@@ -462,14 +462,14 @@ function getAllValues(){
     // Initialize Cloud Firestore through Firebase
     const db = firebase.firestore(app);
     
-    let busN1 = busiName.value + "" + BusiType.value + " " + BusiAddress.value
+    let busN1 = busiName.value + " " + BusiType.value + " " + BusiAddress.value
     let busN2 = busiEmail.value + " " + PhoneNum.value + " " + LinkMenu.value
     let fullName = firstName.value + " " + lastName.value
     
     let bankInfo = accountNum.value + "routingN" + routingNum.value
     let personInfo = DFB.value + " " + legalFullName.value + " " + EmailAddressss.value
     
-    db.collection('doc').add({BusiContact:busN2, FullName:fullName,BusAddress:busN1,BankInfo:bankInfo,BankName:personInfo,storeHours:cars});
+    db.collection('doc').add({BusiContact:busN2,BusAddress:busN1,BankInfo:bankInfo,BankName:personInfo,storeHours:cars});
     
     firebase.auth().createUserWithEmailAndPassword(EmailAddressss.value, password.value)
     .then(function() {
