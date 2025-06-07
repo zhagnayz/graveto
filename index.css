@@ -455,41 +455,6 @@ body {
 /**
  * responsive for larger than 550px screen
  */
- @media (min-width: 375px) {
-  /* Styles to apply when the viewport width is at least 375px */
-    .tab {
-    max-width: 365px;
-    margin-inline: auto;
-  }
-
-  .section-title { --fs-3: 3.6rem; }
-
-
-
-  /**
-   * HEADER
-   */
-
-  .header .btn {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-inline-start: auto;
-  }
-
-  /**
-   * FOOTER
-   */
-
-  .footer-brand,
-  .footer-list:not(:last-child) { margin-block-end: 0; }
-
-  .footer-top .container {
-    display: grid;
-    grid-template-columns: 1/2fr 1/2fr;
-    gap: 30px 50px;
-  }
-}
 
 @media (min-width: 550px) {
 
@@ -526,7 +491,7 @@ body {
 
   .footer-top .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: fr 1fr;
     gap: 30px 50px;
   }
 }
