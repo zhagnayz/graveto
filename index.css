@@ -457,7 +457,7 @@ body {
  */
  @media (min-width: 375px) {
   /* Styles to apply when the viewport width is at least 375px */
-    .container {
+    .tab {
     max-width: 365px;
     margin-inline: auto;
   }
@@ -486,7 +486,7 @@ body {
 
   .footer-top .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1/2fr 1/2fr;
     gap: 30px 50px;
   }
 }
