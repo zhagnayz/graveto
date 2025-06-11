@@ -100,8 +100,7 @@
         
         <div class="form-popup" id="myForm">
 <form id="regForm" action="/action_page.php">
-    <span type="button" class="closebtn" onclick="closeForm()" style="color:white">x</span>
-          <button type="button" id="prevBtn" onclick="nextPrev(-1)"  style="float:right;"></button>
+    <span type="button" class="closebtn" id="prevBtn" onclick="nextPrev(-1)"  style="color:white">x</span>
 
   <!-- One "tab" for each step in the form: -->
   <div class="tab">Business info
@@ -491,9 +490,9 @@ function showTab(n) {
   x[n].style.display = "block";
   //... and fix the Previous/Next buttons:
   if (n == 0) {
-    document.getElementById("prevBtn").style.display = "none";
+    document.getElementById("prevBtn").innerHTML = "X";
   } else {
-    document.getElementById("prevBtn").style.display = "inline";
+    document.getElementById("prevBtn").innerHTML = "<";
   }
   if (n == (x.length - 1)) {
     document.getElementById("nextBtn").innerHTML = "Submit";
@@ -504,7 +503,20 @@ function showTab(n) {
   fixStepIndicator(n)
 }
 
+var count = 0
 function nextPrev(n) {
+  
+  if (n == -1) {
+    count -= 1
+  }else if (n == 1) {
+    count += 1
+  }
+  
+  if (count == -1) {
+      document.getElementById("myForm").style.display = "none";
+      count = 0
+      return;
+  }
   // This function will figure out which tab to display
   var x = document.getElementsByClassName("tab");
   // Exit the function if any field in the current tab is invalid:
