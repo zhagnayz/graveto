@@ -172,8 +172,9 @@
     <br><br>
   </div>
   <div class="tab">Thank you for signed up
-    <p>To SignIn in Grabeto App</p>
-    <p>Use email address and password</p>
+    <p>Signin to Grabeto for restaurant app</p>
+    <p>Using your email and password</p>
+     <a href="https://apps.apple.com/us/app/grabeto-for-restaurants/id6478509867">Download Grabeto for restaurant app</a>
   </div>
   <div style="overflow:auto;">
     <div>
@@ -534,7 +535,11 @@ function nextPrev(n) {
     
     return false;
   }else if  (currentTab >= 3){
-          getAllValues()
+    
+        document.getElementById("nextBtn").style.display = "none";
+        document.getElementById("prevBtn").style.display = "none";
+
+       getAllValues()
 
   }
   // Otherwise, display the correct tab:
