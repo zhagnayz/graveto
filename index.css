@@ -659,9 +659,11 @@ body {
 }
 
 input {
-  padding: 3px;
+  padding: 6px;
   width: 100%;
+  margin: 0px 0px -5px 0px;
   border: 1px solid #aaaaaa;
+  font-size: 20px;
   background-color: white;
 }
 
@@ -681,8 +683,8 @@ input.invalid {
   color: #ffffff;
   border: none;
   width: 100%;
-  height: 34px;
-  border-radius: 17px;
+  height: 36px;
+  border-radius: 18px;
   cursor: pointer;
 }
 
@@ -714,5 +716,3 @@ input.invalid {
 .form-popup {
   display: none;
 }
-
-
