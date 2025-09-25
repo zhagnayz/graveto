@@ -205,7 +205,7 @@ body {
   background-image: var(--gradient-1);
   background-size: 200%;
   color: var(--white);
-  padding: 12px 35px;
+  padding: 7px 15px;
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
   border-radius: 30px;
